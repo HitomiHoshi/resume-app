@@ -2,3 +2,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.font-raleway{
+  font-family: raleway;
+}
+
+.font-xx-large{
+  font-size: xx-large;
+}

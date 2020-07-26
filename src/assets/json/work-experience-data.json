@@ -1,0 +1,26 @@
+[
+  {
+    "company":"Qubit Interactive Sdn Bhd",
+    "description":"IPTV & Signage Solution Company - b2b smart tv service development for hotel and hospital.",
+    "range":"nov, 2019 - current",
+    "working_time":"full time",
+    "work_info":[
+      {
+        "position":"System Developer",
+        "description":"Build an application for content schedulling in calendar using angular 9."
+      }
+    ]
+  },
+  {
+    "company":"Common Extract Sdn Bhd",
+    "description":"IPTV & Signage Solution Company - b2b smart tv service development for hotel and hospital.",
+    "range":"nov, 2019 - current",
+    "working_time":"full time",
+    "work_info":[
+      {
+        "position":"System Developer",
+        "description":"Build an application for content schedulling in calendar using angular 9."
+      }
+    ]
+  }
+]
