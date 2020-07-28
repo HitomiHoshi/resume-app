@@ -1,0 +1,29 @@
+[
+  {
+    "range":"2015 - 2019",
+    "school":"Universiti Teknologi Malaysia, Skudai",
+    "cgpa":3.64,
+    "additional":null,
+    "description":"Comprehensive programme to produce professional ICT programmer in two-dimensional (2D) and three-dimensional (3D) graphics as well as multimedia and web application.",
+    "programme":"Bachelor of Computer Science",
+    "speciality":"Graphics and Multimedia Software"
+  },
+  {
+    "range":"2014 - 2015",
+    "school":"Universiti Teknologi Malaysia, Kuala Lumpur",
+    "cgpa":null,
+    "additional":"Fast Track Programme",
+    "description":"Programme that aimed at multimedia technology through a number of basic computer subjects and are applied with specialized subjects.",
+    "programme":"Diploma of Science Computer",
+    "speciality":"Multimedia"
+  },
+  {
+    "range":"2013",
+    "school":"Sekolah Berasrama Penuh Integrasi Sabak Bernam, Selangor",
+    "cgpa":null,
+    "additional":null,
+    "description":"Science technical having special knowledge especially of a mechanical or scientific subject.",
+    "programme":"Sijil Pelajaran Malaysia",
+    "speciality":"Science Technical"
+  }
+]
