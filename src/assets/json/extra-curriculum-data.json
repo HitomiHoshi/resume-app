@@ -2,31 +2,37 @@
   {
     "event":"UTM Mobile App Hackaton",
     "year":2017,
-    "occur": "UTMTEC"
+    "occur": "UTMTEC",
+    "link":""
   },
   {
     "event":"STEM Apps Challenge",
     "year":2017,
-    "occur": "MaGICX"
+    "occur": "MaGICX",
+    "link":""
   },
   {
     "event":"Kursus Pengurusan Persatuan",
     "year":2017,
-    "occur": "Hema, UTM"
+    "occur": "Hema, UTM",
+    "link":""
   },
   {
     "event":"Degree++ Augmented Reality short course",
     "year":2015,
-    "occur": "Faculty of Computing, UTM"
+    "occur": "Faculty of Computing, UTM",
+    "link":""
   },
   {
     "event":"Film & Video Competition",
     "year":2015,
-    "occur": "Kolej Tun Dr. Ismail"
+    "occur": "Kolej Tun Dr. Ismail",
+    "link":""
   },
   {
     "event":"Persatuan Rakan IJN Malaysia",
     "year":2014,
-    "occur": "Institut Jantung Negara, Kuala Lumpur"
+    "occur": "Institut Jantung Negara, Kuala Lumpur",
+    "link":""
   }
 ]

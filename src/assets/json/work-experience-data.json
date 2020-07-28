@@ -3,7 +3,7 @@
     "company":"Qubit Interactive Sdn Bhd",
     "description":"IPTV & Signage Solution Company - b2b smart tv service development for hotel and hospital.",
     "range":"nov, 2019 - current",
-    "working_time":"full time",
+    "status":"full time",
     "work_info":[
       {
         "position":"System Developer",
@@ -15,11 +15,15 @@
     "company":"Common Extract Sdn Bhd",
     "description":"IPTV & Signage Solution Company - b2b smart tv service development for hotel and hospital.",
     "range":"nov, 2019 - current",
-    "working_time":"full time",
+    "status":"freelance & interned",
     "work_info":[
       {
-        "position":"System Developer",
-        "description":"Build an application for content schedulling in calendar using angular 9."
+        "position":"Level Designer",
+        "description":"Level designer for MakCun's Adventure stall."
+      },
+      {
+        "position":"Programmer",
+        "description":"Scan and View application for colouring Augmented Reality connecting using Unet."
       }
     ]
   }
