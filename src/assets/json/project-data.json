@@ -17,7 +17,7 @@
         "title":"ErStream",
         "under":"Qubit Intercative",
         "description":"Erstream apllication is applicable for signage display. This application integration of 3 application which is account application, file manager application and device control application. The application have many features such as, file manager, create playlist, device control, and scheduling content to device, This application created using angular 9",
-        "link":"/assets/video/Demo.mp4",
+        "link":"./assets/video/Demo.mp4",
         "code":null
     },
     {

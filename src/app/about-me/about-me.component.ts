@@ -16,6 +16,6 @@ export class AboutMeComponent implements OnInit {
   }
 
   downloadResume(){
-    FileSaver.saveAs("/assets/file/resume_NurShahidatulAdani.pdf", "resume", true);
+    FileSaver.saveAs("./assets/file/resume_NurShahidatulAdani.pdf", "resume", true);
   }
 }
