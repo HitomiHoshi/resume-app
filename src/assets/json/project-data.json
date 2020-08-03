@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Planner Application",
+        "under":"Personal",
+        "description":"Simple application to organize work. May add and edit event. This application created using angular 10",
+        "link":"https://hitomihoshi.github.io/scheduling-app/",
+        "code":"https://github.com/HitomiHoshi/scheduling-app"
+    },
+    {
+        "title":"My Profile",
+        "under":"Personal",
+        "description":"My first website resume. This application created using angular 10",
+        "link":"https://hitomihoshi.github.io/resume-app/",
+        "code":"https://github.com/HitomiHoshi/resume-app"
+    },
+    {
+        "title":"ErStream",
+        "under":"Qubit Intercative",
+        "description":"Erstream apllication is applicable for signage display. This application integration of 3 application which is account application, file manager application and device control application. The application have many features such as, file manager, create playlist, device control, and scheduling content to device, This application created using angular 9",
+        "link":"/assets/video/Demo.mp4",
+        "code":null
+    },
+    {
+        "title":"Mak Cun's Adventure",
+        "under":"Common Extract",
+        "description":"working on each stall level design for boutique, burger stall, mee stall, and upcomming stall. this application created using Unity",
+        "link":"https://play.google.com/store/apps/details?id=com.commonextract.makcunadventure&hl=en",
+        "code":null
+    },
+    {
+        "title":"AR Tangram",
+        "under":"Final Project",
+        "description":"Imitate the tangram puzzle in augmented reality enviroment. AR Tangram build for handheld device. This application using Unity",
+        "link":"https://youtu.be/sdGtqUlSup0",
+        "code":null
+    }
+]

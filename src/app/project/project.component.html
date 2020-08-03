@@ -1,0 +1,31 @@
+<div class="fullscreen" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="mat-card-container" fxLayout="row" fxLayoutAlign="space-around center">
+        <h3 fxFlex="20" fxLayout="row" fxLayoutAlign="center center">
+            Project
+        </h3>
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let item of projectList">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{item.title}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{item.under}}
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div>
+                    {{item.description}}
+                </div>
+                <div>
+                    <button mat-flat-button (click)="openLink(item.link)">
+                        <img src="/assets/icon/png/001-url.png" width="20" height="20">
+                    </button>
+                    <button mat-flat-button *ngIf="item.code != null" (click)="openLink(item.code)">
+                        <img src="/assets/icon/png/002-coding.png" width="20" height="20">
+                    </button>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-card>
+</div>

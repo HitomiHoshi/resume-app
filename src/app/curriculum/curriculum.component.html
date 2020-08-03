@@ -1,0 +1,12 @@
+<div class="fullscreen" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="mat-card-container" fxLayout="column" fxLayoutAlign="space-around center">
+        <h3>
+            EXTRA CURRICULUM
+        </h3>
+        <div *ngFor="let item of curriculumList">
+            {{item.event}} ({{item.year}}) - {{item.occur}}
+            <mat-divider></mat-divider>
+        </div>
+    </mat-card>
+</div>

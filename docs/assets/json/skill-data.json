@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Language",
+        "skill_info":[
+            {
+                "title": "Malay",
+                "percentage": 90
+            },
+            {
+                "title": "English",
+                "percentage": 80
+            }
+        ]
+    },
+    {
+        "title": "Programming",
+        "skill_info":[
+            {
+                "title": "HTML",
+                "percentage": 85
+            },
+            {
+                "title": "CSS",
+                "percentage": 80
+            },
+            {
+                "title": "Typescript",
+                "percentage": 85
+            },
+            {
+                "title": "Javascript",
+                "percentage": 60
+            },
+            {
+                "title": "C++",
+                "percentage": 85
+            },
+            {
+                "title": "C#",
+                "percentage": 85
+            }
+        ]
+    },
+    {
+        "title": "Graphic Design",
+        "skill_info":[
+            {
+                "title": "Photoshop",
+                "percentage": 60
+            },
+            {
+                "title": "Ilustrator",
+                "percentage": 60
+            },
+            {
+                "title": "Maya3D",
+                "percentage": 65
+            }
+        ]
+    },
+    {
+        "title": "Office Suite and Presentation",
+        "skill_info":[
+            {
+                "title": "Word",
+                "percentage": 80
+            },
+            {
+                "title": "Excel",
+                "percentage": 80
+            },
+            {
+                "title": "PowerPoint",
+                "percentage": 80
+            }
+        ]
+    }
+]

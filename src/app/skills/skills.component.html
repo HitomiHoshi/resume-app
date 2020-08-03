@@ -1,0 +1,23 @@
+<div class="fullscreen" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="mat-card-container" fxLayout="row" fxLayoutAlign="space-around center">
+        <h3>
+            SKILLS AND ABILITY
+        </h3>
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let item of skillList">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{item.title}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <!-- This is a summary of the content -->
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div *ngFor="let info of item.skill_info">
+                    {{info.title}} : {{info.percentage}} %
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </mat-card>
+</div>

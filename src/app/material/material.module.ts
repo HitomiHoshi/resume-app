@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { A11yModule } from '@angular/cdk/a11y';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { DragDropModule } from '@angular/cdk/drag-drop';
@@ -46,6 +47,7 @@ import { MatTreeModule } from '@angular/material/tree';
 import { OverlayModule } from '@angular/cdk/overlay';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [],
@@ -55,6 +57,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     //additional
     FlexLayoutModule,
 
+    HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule,
     // angular material
     A11yModule,
     ClipboardModule,
@@ -107,6 +112,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     //additional
     FlexLayoutModule,
 
+    HttpClientModule,
+    FormsModule, 
+    ReactiveFormsModule,
     // angular material
     A11yModule,
     ClipboardModule,

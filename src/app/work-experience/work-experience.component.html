@@ -1,0 +1,51 @@
+<div class="fullscreen" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="mat-card-container" fxLayout="column" fxLayoutAlign="center center">
+        <h3>
+            WORK EXPERIENCE
+        </h3>
+            <table mat-table [dataSource]="experienceList">
+
+                <ng-container matColumnDef="company">
+                    <th mat-header-cell *matHeaderCellDef [ngStyle]="{'width': '250px'}">Company</th>
+                    <td mat-cell *matCellDef="let element; let i = index" [attr.rowspan]="getRowSpan('company',i)" [style.display]="getRowSpan('company', i) ? '' : 'none'"> 
+                        <div>
+                            {{ element.company }} 
+                        </div>
+                        <div class="small-text">
+                            - {{ element.description }}
+                        </div>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="range">
+                    <th mat-header-cell *matHeaderCellDef [ngStyle]="{'width': '150px'}">Status</th>
+                    <td mat-cell *matCellDef="let element; let i = index" [attr.rowspan]="getRowSpan('company',i)" [style.display]="getRowSpan('company', i) ? '' : 'none'">
+                        <div>
+                            {{element.status}}
+                        </div>
+                        <div>
+                            {{ element.range }} 
+                        </div>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="work_info">
+                    <th mat-header-cell *matHeaderCellDef>Description</th>
+                    <td mat-cell *matCellDef="let element;">
+                        <div [ngStyle]="{'margin': '2px'}">
+                            <div>
+                                {{ element.work_info.position }}
+                            </div>
+                            <div class="small-text">
+                                - {{element.work_info.description}}
+                            </div>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="experienceDisplayColumn; sticky: true"></tr>
+                <tr mat-row *matRowDef="let row; columns: experienceDisplayColumn"></tr>
+            </table>
+    </mat-card>
+</div>

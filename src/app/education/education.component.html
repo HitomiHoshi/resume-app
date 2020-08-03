@@ -1,1 +1,43 @@
-<p>education works!</p>
+<div class="fullscreen" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="mat-card-container" fxLayout="column" fxLayoutAlign="center center">
+        <h3>
+            EDUCATION
+        </h3>
+            <table mat-table [dataSource]="educationList">
+
+                <ng-container matColumnDef="range">
+                    <th mat-header-cell *matHeaderCellDef [ngStyle]="{'width': '90px'}">Year</th>
+                    <td mat-cell *matCellDef="let element;">{{ element.range }} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="school">
+                    <th mat-header-cell *matHeaderCellDef [ngStyle]="{'width': '200px'}">School</th>
+                    <td mat-cell *matCellDef="let element;">{{ element.school }} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="programme">
+                    <th mat-header-cell *matHeaderCellDef>Programme</th>
+                    <td mat-cell *matCellDef="let element;">
+                        <div [ngStyle]="{'margin': '2px'}">
+                            <div>
+                                {{ element.programme }} ({{element.speciality}}) 
+                                <ng-container *ngIf="element.additional != null">
+                                    <span [ngStyle]="{'font-style': 'italic', 'font-size':'smaller'}"> - {{element.additional}} </span>
+                                </ng-container>
+                                <ng-container *ngIf="element.cgpa != null">
+                                    <span [ngStyle]="{'font-style': 'italic', 'font-size':'smaller'}"> - CGPA : {{element.cgpa}} </span>
+                                </ng-container>
+                            </div>
+                            <div class="small-text">
+                                - {{element.description}}
+                            </div>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="educationDisplayColumn; sticky: true"></tr>
+                <tr mat-row *matRowDef="let row; columns: educationDisplayColumn"></tr>
+            </table>
+    </mat-card>
+</div>
